@@ -3,13 +3,12 @@
 /* circle border for portrait. */
 .image-crop {
     width: 50rem;
+    display: flex;
     height: auto;
-    position: relative;
+    position: absolute;
     align-items: center;
-    bottom: 50%;
     left: 25%;
-    border-radius: -50%;
-    padding-top: 4rem;
+    padding-top: 10%;
 }
 
 /* Orientation of image and paragraph on home */
@@ -40,32 +39,36 @@
   /* alignment and sizing for nav bar/icons */
 .navigation-icons {
     display: flex;
-    width: auto;
-    background-color: green;
-    flex-wrap: wrap;
+    justify-content: center;
   }
 
   /* This fixed the sizing error in imgs */
 #nav-home {
     display: flex;
+    justify-content: center;
 }
 
-  .nav-icon {
+.nav-icon {
     width: 5rem;
     display: flex;
     flex-direction: column;
+    padding-left: 3rem;
+    padding-top: 2rem;
 }
 
   /* alignment for social links */
 .footer-socials-home {
     display: flex;
+    position: absolute;
+    bottom: 10px;
 }
 
 .social-icon {
       width: 3rem;
       display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      bottom: 1rem;
   } 
 
 
