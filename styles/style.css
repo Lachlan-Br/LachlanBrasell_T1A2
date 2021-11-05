@@ -1,0 +1,35 @@
+.image-crop {
+    width: 50rem;
+    height: auto;
+    position: ;
+    align-items: center;
+    border-radius: -50%;
+}
+
+.home-profile-pic {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  #home-paragraph {
+      width: 25%;
+      height: 45%;
+      position: relative;
+      text-align: right;
+
+  } 
+
+  #footer-socials, img {
+      width: 100px;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      justify-items: center;
+      align-items: center;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  } 
+  
