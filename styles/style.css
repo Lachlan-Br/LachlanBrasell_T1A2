@@ -33,19 +33,20 @@
       width: 70%;    
       height: 45%;
       padding-right: 50%;
-      padding left: 50%;
       position: relative;
       text-align: left;
-  } 
+    } 
 
   /* alignment and sizing for nav bar/icons */
-.navigation-icons, nav, div, a{
-    width: 5rem;
+.navigation-icons {
     display: flex;
-    justify-content: center;
     width: auto;
-    height: auto;
+    background-color: green;
+    flex-wrap: wrap;
   }
+  .nav-icon {
+    width: 5rem;
+}
 
   /* alignment for social links */
 .footer-socials-home, img, a {
@@ -54,6 +55,8 @@
       justify-content: space-between;
       align-items: flex-end;
   } 
+
+
   
 
 
