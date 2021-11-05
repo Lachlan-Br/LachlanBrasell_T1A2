@@ -4,7 +4,7 @@
 .image-crop {
     width: 50rem;
     height: auto;
-    position: absolute;
+    position: relative;
     align-items: center;
     bottom: 50%;
     left: 25%;
@@ -44,12 +44,24 @@
     background-color: green;
     flex-wrap: wrap;
   }
+
+  /* This fixed the sizing error in imgs */
+#nav-home {
+    display: flex;
+}
+
   .nav-icon {
     width: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 
   /* alignment for social links */
-.footer-socials-home, img, a {
+.footer-socials-home {
+    display: flex;
+}
+
+.social-icon {
       width: 3rem;
       display: flex;
       justify-content: space-between;
