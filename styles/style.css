@@ -22,7 +22,7 @@
 
   } 
 
-  #footer-socials, img {
+  #footer-socials, img, a {
       width: 100px;
       height: auto;
       display: flex;
