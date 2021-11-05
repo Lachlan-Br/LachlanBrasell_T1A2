@@ -4,16 +4,18 @@
 .image-crop {
     width: 50rem;
     height: auto;
-    position: ;
+    position: absolute;
     align-items: center;
+    bottom: 50%;
+    left: 25%;
     border-radius: -50%;
+    padding-top: 10%;
 }
 
 /* Orientation of image and paragraph on home */
 .image-crop, img, p{
     justify-content: space-between;
     display: flex;
-    align-items: center;
 }
 
 /* Home main picture */
@@ -41,10 +43,9 @@
       height: auto;
       display: flex;
       justify-content: space-between;
-      justify-items: center;
-      align-items: center;
-      padding-left: 1rem;
-      padding-right: 1rem;
+      justify-items: start;
+      align-items: left;
+      padding-top: 3rem;
   } 
   
   /* alignment and sizing for nav bar/icons */
@@ -55,6 +56,7 @@
     justify-content: space-between;
     justify-items: center;
     align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-left: 40%;
+    padding-right: 30%;
   }
