@@ -1,3 +1,6 @@
+
+
+/* circle border for portrait. */
 .image-crop {
     width: 50rem;
     height: auto;
@@ -6,6 +9,14 @@
     border-radius: -50%;
 }
 
+/* Orientation of image and paragraph on home */
+.image-crop, img, p{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+/* Home main picture */
 .home-profile-pic {
     display: flex;
     margin: 0 auto;
@@ -14,14 +25,17 @@
     vertical-align: middle;
   }
 
-  #home-paragraph {
-      width: 25%;
+  /* Main home paragraph. */
+  .image-crop, p, h1 {
+      width: 50%;    
       height: 45%;
+      padding-right: 30%;
+      padding left: 50%;
       position: relative;
-      text-align: right;
-
+      text-align: left;
   } 
 
+  /* alignment for social links */
   #footer-socials, img, a {
       width: 100px;
       height: auto;
@@ -33,12 +47,14 @@
       padding-right: 1rem;
   } 
   
-  #navigation-icons, a {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border: 50px;
-      width: 100px;
-      height: auto;
-
+  /* alignment and sizing for nav bar/icons */
+  #navigation-icons, nav {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
