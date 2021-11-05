@@ -1,4 +1,4 @@
-
+/* THIS STYLING IS FOR THE HOME PAGE */
 
 /* circle border for portrait. */
 .image-crop {
@@ -9,54 +9,78 @@
     bottom: 50%;
     left: 25%;
     border-radius: -50%;
-    padding-top: 10%;
+    padding-top: 4rem;
 }
 
 /* Orientation of image and paragraph on home */
 .image-crop, img, p{
     justify-content: space-between;
     display: flex;
+    font-size: 1.5rem;
 }
 
 /* Home main picture */
 .home-profile-pic {
     display: flex;
     margin: 0 auto;
-    height: 100%;
+    height: auto;
     width: auto;
     vertical-align: middle;
   }
 
   /* Main home paragraph. */
-  .image-crop, p, h1 {
-      width: 50%;    
+.image-crop, p, h1 {
+      width: 70%;    
       height: 45%;
-      padding-right: 30%;
+      padding-right: 50%;
       padding left: 50%;
       position: relative;
       text-align: left;
   } 
 
+  /* alignment and sizing for nav bar/icons */
+.navigation-icons, nav, div, a{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+
   /* alignment for social links */
-  #footer-socials, img, a {
-      width: 100px;
-      height: auto;
+.footer-socials-home, img, a {
+      width: 3rem;
       display: flex;
       justify-content: space-between;
-      justify-items: start;
-      align-items: left;
-      padding-top: 3rem;
+      align-items: flex-end;
   } 
   
-  /* alignment and sizing for nav bar/icons */
-  #navigation-icons, nav {
-    width: 100px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    align-items: center;
-    padding-top: 2rem;
-    padding-left: 40%;
-    padding-right: 30%;
-  }
+
+
+
+
+
+  /* THIS STYLING IS FOR THE ABOUT ME PAGE */
+
+
+
+
+
+
+
+  /* THIS STYLING IS FOR THE CONTACT PAGE */
+
+
+
+
+
+
+
+  /* THIS STYLING IS FOR THE PROJECTS PAGE */
+
+
+
+
+
+
+  /* THIS STYLING IS FOR THE RESUME PAGE */
