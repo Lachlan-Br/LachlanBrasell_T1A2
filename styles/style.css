@@ -83,42 +83,45 @@
       width: 100%;
       position: absolute;
       font-size: 3.75vw;
-      display: block;
-      top: 10rem;
+
     }
 
-    p{
-      padding-bottom: 1rem;
-      margin-bottom: 5rem;
-      position: absolute;
+    .home-profile-pic{
+      width: 20rem;
+    }
+
+    #home-paragraph{
+      width: auto;
+      text-align: center;
+
+    }
+    #home-paragraph, p{
+      width: auto;
     }
 
     #nav-home{
-      width: 1rem;
       position: absolute;
-      top: 1px;
-      display: flex;
-     
+      
     } 
     .nav-icon{
-        width: 5rem;
-        display: flex;
-        flex-direction: row;
-        padding: 1.75rem;
+        width: 3rem;
+        justify-content: space-between;
       }
 
     .footer-socials-home{
-      width: auto;
-      position: fixed;
+      position: absolute;
       bottom: 10px;
+      width: 100%;
+      display: flexbox;
+      justify-content: flex-end;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
 
     .social-icon{
       width: 3rem;
-      display: flex;
-      padding-left: 0.25rem;
-      padding-right: 0.25rem;
-      bottom: 1rem;
+      padding-left: 1rem;
+      padding-right: 0.75rem;
     }
      
     }
