@@ -1,7 +1,7 @@
-/* THIS STYLING IS FOR THE HOME PAGE */
+/* THIS STYLING IS FOR THE HOME PAGE
 
 /* circle border for portrait. */
-.image-crop {
+/* .image-crop { */
     width: 50rem;
     display: flex;
     height: auto;
@@ -12,14 +12,14 @@
 }
 
 /* Orientation of image and paragraph on home */
-.image-crop, img, p{
+/* .image-crop, img, p{ */
     justify-content: space-between;
     display: flex;
     font-size: 1.5rem;
 }
 
 /* Home main picture */
-.home-profile-pic {
+/* .home-profile-pic { */
     display: flex;
     margin: 0 auto;
     height: auto;
@@ -28,7 +28,7 @@
   }
 
   /* Main home paragraph. */
-.image-crop, p, h1 {
+/* .image-crop, p, h1 { */
       width: 70%;    
       height: 45%;
       padding-right: 50%;
@@ -37,18 +37,18 @@
     } 
 
   /* alignment and sizing for nav bar/icons */
-.navigation-icons {
+/* .navigation-icons { */
     display: flex;
     justify-content: center;
   }
 
   /* This fixed the sizing error in imgs */
-#nav-home {
+/* #nav-home { */
     display: flex;
     justify-content: center;
 }
 
-.nav-icon {
+/* .nav-icon { */
     width: 5rem;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
 }
 
   /* alignment for social links */
-.footer-socials-home {
+/* .footer-socials-home { */
     display: flex;
     position: absolute;
     bottom: 10px;
@@ -69,9 +69,65 @@
       padding-left: 0.25rem;
       padding-right: 0.25rem;
       bottom: 1rem;
-  } 
+  }
 
+  /* PHONE STYLING FOR HOME PAGE */
 
+  @media only screen and (max-width: 1024px) {
+
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .image-crop {
+      text-align: center;
+      width: auto;
+      position: absolute;
+      font-size: 4vw;
+      display: block;
+      padding-top: 3rem;
+    }
+
+    p{
+      padding: 0.25rem;
+      margin: 0.25rem;
+      border: 1rem;
+      position: static;
+    }
+
+    #nav-home{
+      width: 1rem;
+     
+    } 
+    .nav-icon{
+        width: 5rem;
+      }
+
+    .footer-socials-home{
+      display: flex;
+      width: 100%;
+      position: fixed;
+      align-items: center;
+      flex-direction: row;
+      bottom: 2px;
+    }
+
+    .social-icon{
+        width: 5rem;
+        justify-content: space-evenly;
+        display: flex;
+        padding-left: 1rem;
+        padding-right: 0.5rem;
+      }
+
+      .image-crop {
+        width: auto;
+        position: absolute;
+        
+      }
+    }
+
+    
   
 
 
@@ -87,6 +143,8 @@
 
 
   /* THIS STYLING IS FOR THE CONTACT PAGE */
+
+
 
 
 
