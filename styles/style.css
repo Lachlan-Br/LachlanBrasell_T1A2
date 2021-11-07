@@ -4,6 +4,7 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 
 }
 body{
@@ -40,40 +41,33 @@ body{
 
   /* profile picture */
   .image-crop{
-    display:inline;
-    margin: 50px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
   }
 
   /* profile picture text */
 
   #home-title{
-    display: flex;
-    font-size: 7.5rem;
+    display: flexbox;
+    font-size: 5.5rem;
     text-align: center;
-    padding: 5px;
   }
 
   #home-paragraph{
-    display: inline-flex;
-    font-size: 2.5rem;
+    display: flex;
+    font-size: 2rem;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    position: absolute;
   }
   
   .home-profile-pic{
-    width: 25%; 
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    width: 25rem; 
+  
   }
 
-  #home-paragraph p{
-    position: relative;
-  }
 
 
   /* Social icons */
@@ -184,29 +178,127 @@ body{
 
 
   /* THIS STYLING IS FOR THE ABOUT ME PAGE */
-  #checkbox1 [type="checkbox"] {
-    margin: 0 auto;
-    display: block;
+.checkboxes{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#checkbox1[type="checkbox"]:before {
-    content: url(../images/300x300\ about\ me-\ test.png);
+
+  input[type="checkbox"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    border: 5px solid green;
+    width: 100%
+}
+input[type="checkbox"]:before {
+    content: url('http://placekitten.com/200/210');
     width: 200px;
     height: 200px;
     overflow: hidden;
 }
-#checkbox1[type="checkbox"]:checked:before {
-    content: url(../images/300x300\ about\ me-\ test\ 2.png);
+input[type="checkbox"]:checked:before {
+    content: url('http://placekitten.com/210/220');
 }
-
 
 
 
   /* THIS STYLING IS FOR THE CONTACT PAGE */
 
+  #contact-me-section {
+    height: 100vh;
+    width: 100%;
+    background-color: mintcream;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
+  .container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000015;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
 
+  .form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
 
+  .form-group input,
+  .form-group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199) ;
+  margin-top: 5px;
+  }
 
+  textarea{
+    resize: vertical;
+  }
+  button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: salmon;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.4 ease background-color;
+  }
+  button[type="submit"]:hover{
+    background-color: rgb(214, 225, 200);
+  }
+  #status{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+#status.success{
+  background-color: #bdffc3;
+  animation: status 4s ease forwards; 
+}
+#status.error{
+  background-color: salmon;
+  color: white;
+  animation: status 10s ease forwards; 
+}
+
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  
+}
 
 
 

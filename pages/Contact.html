@@ -8,7 +8,66 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <div class="navigation-icons">
+            <nav class="nav-home">
+                <div class="nav-home">
+                  <a href="../pages/About-me.html">
+                      <img class="nav-icon" src="../images/aboutme_300.png" alt="Picture for link to about me.">
+                    </a>
+                  <a href="../pages/Contact.html">
+                      <img class="nav-icon" src="../images/projects_icon_300x300.png" alt="Icon for link to contacts">
+                    </a>
+                  <a href="../pages/Projects.html">
+                      <img class="nav-icon" src="../images/projects_icon_300x300.png" alt="Icon for link to projects">
+                    </a>
+                  <a href="../pages/Resume.html">
+                      <img class="nav-icon" src="../images/resume_icon_300x300.png" alt="Icon for link to resume.">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<!-- Once i've done with java and backend - formspree can be used for free, i'll put it in the action within form. -->
+    <section id="contact-me-section">
+        <div class="container">
+            <form action="" method="POST" id="my-form">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" placeholder="Please write your first name here." id="firstname" name="firstname">
+
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" placeholder="Please write your last name here." id="lastname" name="lastname">
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Please write your email here."  id="email" name="email">
     
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" placeholder="Deatils about your enquiry, please be direct!" id="message" cols="30" rows="10"></textarea>
+
+                </div>
+
+                <button type="submit">Send it!</button>
+
+                </div>
+            </form>
+        </div>
+        <div id="status" class="success">Success!</div>
+
+        <!-- Cancelled out until java is used. -->
+        <!-- <div id="status" class="error">Error!</div> -->
+    </section>
+
+
+
+
 </body>
 <footer>
     <div class="footer-socials-home">
