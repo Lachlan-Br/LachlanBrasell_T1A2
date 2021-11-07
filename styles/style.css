@@ -9,13 +9,14 @@
 }
 body{
   width: 100%;
-  height: 100%;
+  height: 90vh;
+  overflow-y: 0;  
 }
 
 @media only screen and (min-width: 992px) {
 
   /* Div of nav icons */
-  body .navigation-icons {
+  .navigation-icons {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -40,27 +41,28 @@ body{
   }
 
   /* profile picture */
-  .image-crop{
-    display: flex;
-    flex-direction: column;
+  #hori-align{
+    display: flex; 
+    flex-direction: column; 
     justify-content: center;
-
+    height: 100%;
   }
+
+  .image-crop{
+    
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+  }
+  
 
   /* profile picture text */
 
   #home-title{
-    display: flexbox;
     font-size: 5.5rem;
-    text-align: center;
   }
 
   #home-paragraph{
-    display: flex;
     font-size: 2rem;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
   }
   
   .home-profile-pic{
