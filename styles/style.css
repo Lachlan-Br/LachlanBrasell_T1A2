@@ -35,7 +35,7 @@ body{
   .nav-icon{
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    width: 5rem;
   }
 
   /* profile picture */
@@ -49,14 +49,14 @@ body{
 
   #home-title{
     display: flex;
-    font-size: 15rem;
+    font-size: 7.5rem;
     text-align: center;
     padding: 5px;
   }
 
   #home-paragraph{
     display: inline-flex;
-    font-size: 7.5rem;
+    font-size: 2.5rem;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
@@ -64,7 +64,7 @@ body{
   }
   
   .home-profile-pic{
-    width: 50%; 
+    width: 25%; 
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -83,8 +83,24 @@ body{
     align-items: flex-end;
   }
 
+  .social-icon{
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-
+  .footer-socials-home{
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    display: flexbox;
+    justify-content:;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    align-items: center;
+  }
 
 
 
@@ -102,7 +118,7 @@ body{
       text-align: center;
       width: 100%;
       position: absolute;
-      font-size: 3.75vw;
+      font-size: 3.5vw;
       top: 15%;
 
     }
