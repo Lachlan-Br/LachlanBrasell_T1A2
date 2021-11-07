@@ -148,6 +148,7 @@ body{
       justify-content: flex-end;
       flex-direction: row;
       flex-wrap: wrap;
+      padding-top: 5px;
     }
 
     .social-icon{
