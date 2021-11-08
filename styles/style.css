@@ -111,6 +111,98 @@ body{
       width: 100%;
     }
 
+    /* This is  the grid layer for phone */
+    .inner {
+      grid-template-columns: 100%;
+      }
+
+    body {
+      width: 100%;
+      height: 1000px
+    }
+
+    .container {
+      height: 100%;
+      display: grid;
+        place-items: center;
+    }
+
+    .inner{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-gap: 6rem;
+        
+    }
+
+    .hover {
+      background: url('https://yt3.ggpht.com/a/AATXAJyqtp5iY_pA82aY7NSt0I_Praar6qMk6SW_EA=s900-c-k-c0xffffffff-no-rj-mo');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 10rem;
+      height: 10rem;
+    }
+
+
+    .overlay {
+      width: 100%;
+      height: 100%;
+      background: lightgreen;
+      display: none;
+        place-items: center;
+        color: white;
+    }
+
+    .overlay2 {
+      width: 100%;
+      height: 100%;
+      background: lightgreen;
+      display: none;
+        place-items: center;
+        color: white;
+    }
+
+    .overlay3 {
+      width: 100%;
+      height: 100%;
+      background: lightgreen;
+      display: none;
+        place-items: center;
+        color: white;
+    }
+
+    .overlay4 {
+      width: 100%;
+      height: 100%;
+      background: lightgreen;
+      display: none;
+        place-items: center;
+        color: white;
+    }
+
+    .hover:hover .overlay {
+      display: grid !important;
+    }
+
+    .hover:hover .overlay2 {
+      display: grid !important;
+    }
+
+    .hover:hover .overlay3 {
+      display: grid !important;
+    }
+
+    .hover:hover .overlay4 {
+      display: grid !important;
+    }
+
+
+
+
+
+
+
+
     .image-crop {
       text-align: center;
       width: 100%;
