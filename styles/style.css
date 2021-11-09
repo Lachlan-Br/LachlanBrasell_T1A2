@@ -561,6 +561,30 @@ body{
 
   /* THIS STYLING IS FOR THE PROJECTS PAGE */
 
+  .projects-article{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 2rem;
+  }
+
+.projects-article img{
+  width: 15rem;
+  }
+
+  .projects-article h1{
+    font-size: 35px;
+  }
+
+  .projects-article h1 p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+
+  @media only screen and (max-width: 991px){
+
+  }
 
 
 
