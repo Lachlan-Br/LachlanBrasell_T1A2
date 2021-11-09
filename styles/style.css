@@ -570,6 +570,7 @@ body{
 
 .projects-article img{
   width: 15rem;
+  max-height: 280px;
   }
 
   .projects-article h1{
@@ -582,7 +583,28 @@ body{
   }
 
 
+/* Ask nakid for help here - can't scroll down can't see other pieces. */
   @media only screen and (max-width: 991px){
+    .projects-article{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding-bottom: 2rem;
+    }
+  
+  .projects-article img{
+    width: 5rem;
+
+    }
+  
+    .projects-article h1{
+      font-size: 24px;
+    }
+  
+    .projects-article h1 p{
+      font-size: 14px;
+      font-weight: 400;
+    }
 
   }
 
